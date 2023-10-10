@@ -8,16 +8,16 @@ let myArr2 = new Array(1, 2, 3, 4)
 
 // Array Methods
 
-// myArr.push(6)
-// myArr.push(7)
-// myArr.pop()
+myArr.push(6)
+myArr.push(7)
+myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+myArr.unshift(9)
+myArr.shift()
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(9)); // -1
-// console.log(myArr.indexOf(5)); // 1 se start
+console.log(myArr.includes(9));
+console.log(myArr.indexOf(9)); // -1
+console.log(myArr.indexOf(5)); // 0 se start
 
 let newArr = myArr.join()
 console.log(myArr);
