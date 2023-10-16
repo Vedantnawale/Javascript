@@ -9,12 +9,16 @@ let myArr2 = new Array(1, 2, 3, 4)
 // Array Methods
 
 myArr.push(6)
-myArr.push(7)
-myArr.pop()
+console.log(myArr);
+myArr.push(7) // last madhe add hote
+console.log(myArr);
+myArr.pop() // last madhla element remove hote
+console.log(myArr);
 
 myArr.unshift(9)
+console.log(myArr);
 myArr.shift()
-
+console.log(myArr);
 console.log(myArr.includes(9));
 console.log(myArr.indexOf(9)); // -1
 console.log(myArr.indexOf(5)); // 0 se start
