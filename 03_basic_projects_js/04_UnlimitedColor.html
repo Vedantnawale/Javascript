@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnlimitedColor</title>
+</head>
+
+<body style="background-color: #212121; color: #fff;">
+    <main>
+        <h1>Chai aur Code</h1>
+        <div class="projects">
+            <a href="./04_UnlimitedColor.html" class="project-link" style="color: #cf2828;">
+                Project one - color Changer</a>
+        </div>
+        <h2>Start should Change the Background color every second</h2>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </main>
+</body>
+<script>
+    // genrate a radom color
+
+    let randomColor = function () {
+        let hex = "0123456789ABCDEF"
+        let color = '#'
+        for (let i = 0; i < 6; i++) {
+            color += hex[Math.floor(Math.random() * 16)]
+        }
+        return color
+    }
+
+    let intervalId;
+    function changeBgColor() { 
+        document.body.style.backgroundColor = randomColor()
+     }
+    
+    let startChangeColor = function () {
+        if(!intervalId){
+         intervalId = setInterval(changeBgColor, 1000)
+      }
+    }
+    let stopChangeColor = function () { 
+        clearInterval(intervalId)
+        intervalId = null;
+     }
+
+    document.querySelector('#start').addEventListener
+        ('click', startChangeColor)
+
+    document.querySelector('#stop').addEventListener
+        ('click', stopChangeColor)
+</script>
+
+</html>
