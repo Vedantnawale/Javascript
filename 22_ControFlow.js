@@ -50,3 +50,8 @@ console.log(val1);
 // Terinary Operator
 
 // condition ? true : false
+
+// note :- Nullish Coalescing Operator (??): The nullish coalescing (??) 
+// operator is a logical operator that returns its right-hand side operand 
+// when its left-hand side operand is null or undefined, and otherwise returns 
+// its left-hand side operand.
