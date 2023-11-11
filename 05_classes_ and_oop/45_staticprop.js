@@ -17,7 +17,7 @@ let vedant = new User("vedant")
 
 class Teacher extends User {
     constructor(username,email){
-        super(username)
+        super(username) // Instead of call we used super keyword
         this.email = email
     }
 }

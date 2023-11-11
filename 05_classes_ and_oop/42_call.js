@@ -4,7 +4,7 @@ function setUSerName(username){
     console.log("called ");
 }
 function createUser(username, email, password){
-    setUSerName.call(this, username)
+    setUSerName.call(this, username) // we can use super keyword for this super(username)
 
     this.email = email
     this.password = password
