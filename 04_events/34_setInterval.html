@@ -11,8 +11,9 @@
     <button id="stop">Stop</button>
 </body>
 <script>
+    let curDate = new Date()
     let sayDate = function(){
-        console.log("Vedant", Date.now());
+        console.log("Vedant", curDate.toLocaleDateString());
     }
     let intervalId;
     document.querySelector('#start').addEventListener('click', function(){
