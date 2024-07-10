@@ -1,7 +1,7 @@
 // Syntax 
 // fetch(resource)
 // fetch(resource, options)
-fetch('https://api.github.com/users/hiteshchoudhary')
+fetch('https://api.github.com/users/Vedantnawale')
 .then((response)=>{
 return response.json()
 }).then((data)=>{

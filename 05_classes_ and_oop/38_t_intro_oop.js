@@ -13,10 +13,10 @@
   ## why use OOP
 
   ## parts of OOP
+  
   - Object Literal
-
   - Constructor Function
-  - Proottypes
+  - Prototypes
   - Classes
   - Instances (new, this)
 

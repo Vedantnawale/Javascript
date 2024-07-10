@@ -1,6 +1,6 @@
 const accountId = 14432  // no change
-let accountEmail = "iam@google.com" // global scope
-var accountPassword = "12345" // block scope
+let accountEmail = "iam@google.com" // block scope
+var accountPassword = "12345" // global scope
 accountCity = "Jaipur"
 let accountState;
 
